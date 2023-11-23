@@ -5,12 +5,65 @@
     <meta charset="utf-8">
   </head>
   <style>
+    #header, #nav {
+      display: block;
+    }
+    
+    #header {
+      height: 165px;
+      background-image: url("header2.png");
+      margin: 0px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #313431;
+        overflow: hidden;
+      }
+      
+      li {
+  			display: inline;
+        color: white;
+        float: left;
+			}
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 5px 56px
+      }
+      
+      li a:hover {
+        background-color: #556b2f;
+      }
+    
+    figure {
+        float: left;
+        width: 290px;
+        height: 220px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #eeeeee;
+      }
+
+      figcaption {
+        font-size: 90%;
+        text-align: left;
+      }
+    
     h1 {
-      font-family: timesnewroman;
+      font-family: "Times New Roman", Times, serif;
+      text-indent: -9999px;
+      width: 940px;
+      height: 165px;
+      margin: 0px;
     }
     
     body {
-      font-family: arial;
+      font-family: "Times New Roman", Times, serif;
     }
     
     p {
@@ -30,8 +83,23 @@
   </style>
   
 <body>
-  <h1>Casslie Wong</h1>
+  <div id="top">
+    <div id="header">
+      <h1>
+        casslie's website!
+      </h1>
+      <div id="nav">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">SOCIAL MEDIA</a></li>
+          <li><a href="">GAMING</a></li>
+          <li><a href="">ABOUT</a></li>
+        </ul>
+    </div>
+  </div>
+  </div>
   <p>
+    <br>
     This is a website about me!
   </p>
 	<h2>Video Games</h2>
