@@ -5,11 +5,20 @@
     <meta charset="utf-8">
   </head>
   <style>
+    @media screen and (min-width:0px) {
+      p {
+        width: 1100px;
+      }
+
+      h2 {
+        width: 1200px;
+      }
+    }
+
     #header,
     #nav,
     #div,
-    figure,
-    figcaption {
+    figure {
       display: block;
     }
 
@@ -19,6 +28,13 @@
       background-image: url("header2.png");
       margin: 0px;
       padding: 0px 0px 10px 0px;
+    }
+
+    #nav {
+      padding: 0px;
+      margin: 0px;
+      height: 20px;
+      width: 100%;
     }
 
     ul {
@@ -56,11 +72,6 @@
       border: 2px solid #eeeeee;
     }
 
-    figcaption {
-      font-size: 90%;
-      text-align: left;
-    }
-
     h1 {
       font-family: "Times New Roman", Times, serif;
       text-indent: -9999px;
@@ -74,11 +85,13 @@
       font-size: 90;
       color: black;
       margin-left: 20px;
+      text-align: left;
     }
 
     h3 {
       color: #748F68;
       margin-left: 20px;
+      text-align: left;
     }
 
     body {
@@ -87,7 +100,9 @@
     }
 
     p {
-      color: blue;
+      color: #748F68;
+      font-size: 20;
+      margin-left: 20px;
     }
 
     #intro {
@@ -127,12 +142,13 @@
         <br>Hi, I'm Casslie
         <figure><img src="minecraftcake.png" alt="minecraft cake" width="300" height="300">
         </figure>
-        <h3>
-          I'm the Marketing Coordinator - Digital and Content for Chatime Canada
-          <br><br>With my creativity, passion, and communicative personality, I aspire to grow my career in Digital Marketing.
-          <br><br>View my <a href="https://flowcv.com/resume/h43cs9dhsm" target="_blank">resume</a> here!
-        </h3>
       </h2>
+      <p>
+        I'm the Marketing Coordinator - Digital and Content for Chatime Canada
+        <br><br>With my <b>creativity, passion,</b> and <b>communicative</b> personality,
+        <br>I aspire to grow my career in Digital Marketing.
+        <br><br>View my <a href="https://flowcv.com/resume/h43cs9dhsm" target="_blank">resume</a> here!
+      </p>
     </div>
     <div id="blocka">
       <p>
